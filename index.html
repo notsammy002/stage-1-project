@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+
+<head>
+  <title>Electric Car</title>
+  <link rel="stylesheet" href="css/index_style.css" />
+  <script src="javas.js"></script>
+
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+    crossorigin="anonymous"
+  />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Electric Car</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="aboutus.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact_page.html">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="faq_page.html">FAQ</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"><i class="fa fa-search" aria-hidden="true"></i> <span class="sr-only">(current)</span></a>
+            </li>
+            <li>
+              <input class="form-control mr-sm-2" type="text" placeholder="Search" />
+              <button class="btn btn-success" type="submit">Search</button>
+            </li>
+          </ul>
+        </form>
+      </div>
+    </nav>
+  </div>
+
+  <div class="bodystyle">
+    <div id="demo" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+        <li data-target="#demo" data-slide-to="2"></li>
+      </ul>
+
+      <!-- The slideshow -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/ModelX1.jpg" alt="ModelX" />
+          <div class="carousel-caption modelx">
+            <h3>Model X</h3>
+            <p>Charging Capacity: 75 kW</p>
+            <p>Charging Time: 6.5 hrs</p>
+            <p>Distance Covered: 542 km</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/ModelS.jpg" alt="ModelS" />
+          <div class="carousel-caption models" style="color: rgb(0, 0, 0)">
+            <h3 style="color: rgb(0, 0, 0)">Model S</h3>
+            <!-- <p>Charging Capacity: 100 kWh lithium ion</p>
+            <p>Charging Time: 6 hrs</p>
+            <p>Distance Covered: 643 km</p> -->
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/ford-mustang.jpg" alt="Ford Mustang Mach-e" />
+          <div class="carousel-caption mach">
+            <h3>Ford Mustang Mach-e</h3>
+            <p>Charging Capacity: 68 kWh</p>
+            <p>Charging Time: 7 hrs</p>
+            <p>Distance Covered: 339.5 km</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Left and right controls -->
+      <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#demo" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+
+    <main>
+      <div class="">
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-12">
+            <div class="card">
+              <img class="card-img-top" src="images/teslaLogo.png" alt="Card image" style="width: 100%" />
+              <div class="card-body">
+                <h4 class="card-title">Tesla, Inc.</h4>
+                <p class="card-text">Electric car company</p>
+                <a href="tesla.html" class="">Know Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-12">
+            <div class="card">
+              <img class="card-img-top" src="images/nissanLogo.png" alt="Card image" style="width: 100%" />
+              <div class="card-body">
+                <h4 class="card-title">Nissan</h4>
+                <p class="card-text">Automotive manufacturer</p>
+                <a href="#" class="">Know Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-12">
+            <div class="card">
+              <img class="card-img-top" src="images/fordLogo.jpg" alt="Card image" style="width: 100%" />
+              <div class="card-body">
+                <h4 class="card-title">Ford Motor Company</h4>
+                <p class="card-text">Automotive manufacturer</p>
+                <a href="#" class="">Know Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-12">
+            <div class="card">
+              <img class="card-img-top" src="images/bmwLogo.jpg" alt="Card image" style="width: 100%" />
+              <div class="card-body">
+                <h4 class="card-title">Bayerische Motoren Werke AG</h4>
+                <p class="card-text">Luxury vehicles company</p>
+                <a href="#" class="">Know Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <section class="estyle">
+      <div class="store">
+        <h3>Tesla</h3>
+        <p></p>
+        <button><a href="tesla.html">Know Now</a></button>
+      </div>
+    </section>
+  </div>
+
+  <div class="container foot">
+    <div class="row">
+      <div class="col-lg-3>">
+        <p>What's new</p>
+        <ul>
+          <li><a href="ModelS.html"> Tesla Model S</a></li>
+          <li><a href="#"> Tesla Model x</a></li>
+          <li><a href="#"> Ford Mustang Mach-e</a></li>
+          <li><a href="#"> Nissan Leaf EV</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-3>">
+        <p>Tesla</p>
+        <ul>
+          <li><a href="ModelS.html"> Tesla Model S</a></li>
+          <li><a href="#"> Tesla Model x</a></li>
+          <li><a href="#"> Tesla Model 3</a></li>
+          <li><a href="#"> Tesla Model y</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-3>">
+        <p>BMW</p>
+        <ul>
+          <li><a href="#"> BMW M3</a></li>
+          <li><a href="#"> BMW M4</a></li>
+          <li><a href="#"> BMW i3</a></li>
+          <li><a href="#"> BMW X6</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-3>">
+        <p>Nissan</p>
+        <ul>
+          <li><a href="#"> Nissan Leaf EV</a></li>
+          <li><a href="#"> Nissan Terra</a></li>
+          <li><a href="#"> Nissan X-Trail</a></li>
+        </ul>
+      </div>
+      <!--<div class="col-lg-3>">
+        <p>Ford</p>
+        <ul>
+          <li><a href="#"> Ford Mustang Mach-e</a></li>
+          <li><a href="#"> Ford Fusion Hybrid</a></li>
+          <li><a href="#"> Ford Escape Hybrid </a></li>
+          <li><a href="#"> Ford Fusion Plug-IN Hybrid</a></li>
+        </ul>
+      </div>-->
+    </div>
+  </div>
+  <footer class="full-footer">
+    <div class="container top-footer p-md-3 p-1">
+      <div class="row">
+        <div class="col-md-3 pl-4 pr-4">
+          <img class="img-fluid" src="imgs/logo_text_white_small.png" alt="" />
+          <h3>ELECTRIC CARS</h3>
+          <a href="#">Know more...</a><br />
+        </div>
+
+        <div class="col-md-3 pl-4 pr-4">
+          <h3>Important Links</h3>
+          <a href="#">Privacy Policy</a><br />
+          <a href="#">Youtube Channel Link </a><br />
+          <a href="#">Blog Articles </a><br />
+          <a href="#">Social Media</a>
+        </div>
+
+        <div class="col-md-3 pl-4 pr-4">
+          <h3>Location</h3>
+          <p>CENTRAL UNIVERSITY OF HARYANA</p>
+        </div>
+
+        <div class="col-md-3 pl-4 pr-4">
+          <h3>Contact Info</h3>
+          <a href="#"><i class="fas fa-phone"></i> +(91) 9090909090 </a><br />
+          <a href="#"><i class="fas fa-envelope"></i> abc@gmail.com </a><br />
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>

@@ -1,1 +1,2 @@
-# stage-1-project
+# Electric-Car
+Front-end Website based on Electric Cars.
