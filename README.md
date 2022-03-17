@@ -1,13 +1,6 @@
 # Electric-Car
 Front-end Website based on Electric Cars.
 
-# Facebook (clone)
-
-Facebook is a leading social media platform across the globe. It has an ability to connect and share with the people you care about.
-
-In this project we have tried to make a look alike clone of Facebook. With our 
-efforts and the technology stack, that we have learned 
-so far in the masai school, we were able to clone the front end with high precision and quality.
 
 ## Live Demo
 
@@ -29,11 +22,9 @@ In this project we were able to achieve a near to perfect clone of the original 
 
 You can also take the glimpse of our Project,just follow the below steps:
 
-1.Clone the git repo and then install npm in folder.
+1.Clone the git repo.
 
-2. Install all the library mention above using npm install commands
-
-3.run the command npm run start in terminal to start the app at port 3000.
+2. Open the html file in any browser
 
 ## Screenshot
 ![Screenshot 2022-03-17 153015](https://user-images.githubusercontent.com/97031223/158785919-db610657-af1c-428a-b7a5-63ece911c3c6.png)
