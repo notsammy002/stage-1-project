@@ -4,7 +4,7 @@ Front-end Website based on Electric Cars.
 
 ## Live Demo
 
-https://lucid-kilby-aa9fc4.netlify.app/index.html#
+https://electric-car-project.netlify.app/
 
 ## Technology Used
 
