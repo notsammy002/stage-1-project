@@ -27,19 +27,13 @@ You can also take the glimpse of our Project,just follow the below steps:
 
 ## Screenshot 📷
 ![Screenshot 2022-03-17 153015](https://user-images.githubusercontent.com/97031223/158785919-db610657-af1c-428a-b7a5-63ece911c3c6.png)
-
-
-
+<br>
 ![Screenshot 2022-03-17 153120](https://user-images.githubusercontent.com/97031223/158786486-b8015315-8516-4555-8552-8bde44ebdd70.png)
-
-
-
+<br>
 ![Screenshot 2022-03-17 153053](https://user-images.githubusercontent.com/97031223/158786629-7f05054d-b865-4761-9632-7554a4688a3d.png)
-
-
-
+<br>
 ![Screenshot 2022-03-17 153156](https://user-images.githubusercontent.com/97031223/158786718-07da6cb0-5e97-43c7-8816-b3297913967c.png)
-
+<br>
 
 ## Features ✨
 
